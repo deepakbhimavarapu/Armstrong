@@ -11,4 +11,4 @@ def checkArmstrong(num):
         num = num // 10
     if s == temp:
         return True
-    
+    return False
