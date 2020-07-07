@@ -4,7 +4,6 @@
 def checkArmstrong(num):
     # Your code goes here
     temp = num
-    s = 0
     while(num > 0):
         r = num % 10
         s = s + (r * r * r)
