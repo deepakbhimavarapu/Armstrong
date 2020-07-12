@@ -8,7 +8,6 @@ def checkArmstrong(num):
     while(num > 0):
         r = num % 10
         s = s + (r * r * r)
-        num = num // 10
     if s == temp:
         return True
     return False
